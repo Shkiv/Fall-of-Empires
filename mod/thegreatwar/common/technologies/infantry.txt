@@ -14,26 +14,6 @@ technologies = {
 	@1945 = 22
 	@1946 = 24
 
-	khaki = {
-		infantry = { defense = 0.05 }
-		cavalry = { defense = 0.02 }
-		mountaineers = { defense = 0.03 }
-		paratrooper = { defense = 0.03 }
-		marine = { defense = 0.03 }
-		motorized = { defense = 0.05 }
-		mechanized = { defense = 0.05 }
-
-		research_cost = 1.5
-		start_year = 1890
-
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1890 }
-		}
-
-		categories = { infantry_weapons }
-		ai_will_do = { factor = 1 }
-	}
 	infantry_weapons = {
 
 		enable_equipments = { infantry_equipment_0 }
@@ -907,36 +887,35 @@ technologies = {
 			}
 		}
 	}
+	khaki = {
+		infantry = { defense = 0.05 }
+		cavalry = { defense = 0.02 }
+		mountaineers = { defense = 0.03 }
+		paratrooper = { defense = 0.03 }
+		marine = { defense = 0.03 }
+		motorized = { defense = 0.05 }
+		mechanized = { defense = 0.05 }
+
+		research_cost = 1.5
+		start_year = 1890
+
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = @1890 }
+		}
+
+		categories = { infantry_weapons }
+		ai_will_do = { factor = 1 }
+	}
 	support_weapons = {
 
-		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		cavalry = {
-			defense = 0.02
-			breakthrough = 0.02
-		}
-		mountaineers = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		paratrooper = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		marine = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		motorized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
+		infantry = { breakthrough = 0.05 }
+		cavalry = { breakthrough = 0.02 }
+		mountaineers = { breakthrough = 0.03 }
+		paratrooper = { breakthrough = 0.03 }
+		marine = { breakthrough = 0.03 }
+		motorized = { breakthrough = 0.05 }
+		mechanized = { breakthrough = 0.05 }
 
 		path = {
 			leads_to_tech = support_weapons2
@@ -950,9 +929,7 @@ technologies = {
 			position = { x = -2 y = @1914 }
 		}
 
-		categories = {
-			infantry_weapons
-		}
+		categories = { infantry_weapons }
 
 		ai_will_do = {
 			factor = 1

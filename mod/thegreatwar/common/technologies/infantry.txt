@@ -14,28 +14,6 @@ technologies = {
 	@1945 = 22
 	@1946 = 24
 
-	infantry_weapons = {
-
-		enable_equipments = { infantry_equipment_0 }
-
-		enable_subunits = { infantry }
-
-		path = {
-			leads_to_tech = infantry_weapons_1914
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1890
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1890 }
-		}
-
-		categories = { infantry_weapons }
-
-		ai_will_do = { factor = 1 }
-	}
 	infantry_weapons_1914 = {
 		category_light_infantry = { soft_attack = 0.02 }
 		cavalry = { soft_attack = 0.02 }

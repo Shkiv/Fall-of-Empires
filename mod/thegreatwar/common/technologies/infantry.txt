@@ -1206,7 +1206,7 @@ technologies = {
 		}
 		folder = {
 			name = support_folder
-			position = { x = 7 y = 9 }
+			position = { x = 7 y = 11 }
 		}
 		categories = {
 			motorized_equipment
@@ -1325,9 +1325,7 @@ technologies = {
 			cat_mechanized_equipment
 		}
 
-		ai_will_do = {
-			factor = 2
-		}
+		ai_will_do = { factor = 2 }
 	}
 	mechanised_infantry2 = {
 
@@ -1353,9 +1351,7 @@ technologies = {
 			cat_mechanized_equipment
 		}
 
-		ai_will_do = {
-			factor = 1
-		}
+		ai_will_do = { factor = 1 }
 	}
 	mechanised_infantry3 = {
 

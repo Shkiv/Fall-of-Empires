@@ -59,4 +59,8 @@ spriteTypes = {
 		name = "GFX_khaki_medium"
 		texturefile = "gfx/interface/technologies/khaki.dds"
 	}
+	SpriteType = {
+		name = "GFX_gw_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/gw_heavy_tank.dds"
+	}
 }

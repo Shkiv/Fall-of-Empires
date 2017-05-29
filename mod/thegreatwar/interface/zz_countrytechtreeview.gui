@@ -691,7 +691,6 @@ guiTypes = {
         }
       }
 
-
       containerWindowType = {
         name = "armour_subtitles"
         position = { x = 0 y = 172 }
@@ -701,7 +700,7 @@ guiTypes = {
 
         instantTextBoxType = {
           name = "armour_subtitle_heavy"
-          position = { x = 480 y = 55 }
+          position = { x = 480 y = -83 }
           textureFile = ""
           font = "hoi_33"
           borderSize = {x = 0 y = 4}
@@ -714,7 +713,7 @@ guiTypes = {
 
         instantTextBoxType = {
           name = "armour_subtitle_medium"
-          position = { x = 207 y = 335 }
+          position = { x = 207 y = 473 }
           textureFile = ""
           font = "hoi_33"
           borderSize = {x = 0 y = 4}
@@ -727,7 +726,7 @@ guiTypes = {
 
         instantTextBoxType = {
           name = "armour_subtitle_light"
-          position = { x = -84 y = 55  }
+          position = { x = -84 y = -83  }
           textureFile = ""
           font = "hoi_33"
           borderSize = {x = 0 y = 4}
@@ -739,9 +738,8 @@ guiTypes = {
         }
       }
 
-
       gridboxtype = {
-        name = "gwtank_tree"
+        name = "gw_heavy_tank_tree"
         position = { x = 10% y = 172 }
         size = { width = 80% height = 80% }
         slotsize = { width = 70 height = 70 }

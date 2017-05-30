@@ -63,4 +63,8 @@ spriteTypes = {
 		name = "GFX_gw_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/gw_heavy_tank.dds"
 	}
+	SpriteType = {
+		name = "GFX_interwar_light_tank_medium"
+		texturefile = "gfx/interface/technologies/interwar_light_tank.dds"
+	}
 }
